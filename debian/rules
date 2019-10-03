@@ -2,7 +2,7 @@
 
 PKG = $(word 2,$(shell dpkg-parsechangelog | grep Source))
 VERSION ?= $(shell cat VERSION)
-URL_DOWNLOAD = "https://github.com/JoshData/python-email-validator/archive/${VERSION}.tar.gz"
+URL_DOWNLOAD = "https://github.com/JoshData/python-email-validator/archive/v${VERSION}.tar.gz"
 export PYBUILD_NAME=email-validator
 export PYBUILD_DISABLE=test
 export PYBUILD_SYSTEM=distutils
