@@ -2,6 +2,11 @@
 
 Debian packaging for [python3-email-validator](https://github.com/JoshData/email-validator/) used in Wazo.
 
+## Reason
+
+* Not packaged by Debian
+* Needed by wazo-router-confd and wazo-router-calld
+
 ## Upgrading
 
 To upgrade python-email-validator
