@@ -21,5 +21,7 @@ Depends: ${misc:Depends},
          python3-yaml,
          python3-requests,
          python3-ujson,
-Description: The little ASGI library that shines.
+Description: Robust email syntax and deliverability validation library for Python
  .
+ This library validates that address are of the form x@y.com. This is
+ the sort of validation you would want for a login form on a website.
