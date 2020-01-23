@@ -1,6 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/Copyright 1-2019 The Wazo Authors  (see the AUTHORS file)
 Upstream-Name: email-validator
-Source: https://github.com/JoshData/email-validator
+Source: https://github.com/JoshData/python-email-validator
 
 Files: *
 Copyright: Public Domain
